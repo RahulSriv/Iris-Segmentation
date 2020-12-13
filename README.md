@@ -12,7 +12,7 @@ If the iris regions were not correctly segmented, there would possibly exist fou
 noises in segmented iris regions: eyelashes, eyelids, reflections and pupil, which will result in
 poor recognition performance.
 
-##Methodology
+## Methodology
 
 In this proposed method for performing iris segmentation we use Hough Transform, and
 Canny Edge Detection techniques. The first is a curve fitting technique and the second is a
