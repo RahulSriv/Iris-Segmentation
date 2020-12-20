@@ -1,4 +1,4 @@
-# Iris-Segmentation
+# Iris Segmentation
 Iris based security system using techniques of iris segmentation by Canny edge detection and Hough transformation implemented in OpenCV Python.
 
 Iris segmentation is the first step and also the key step of the whole iris recognition. Its
@@ -24,7 +24,7 @@ order to perform Hough transform we need to perform edge extraction because Houg
 transforms work only on edge extracted images. In order to perform Edge extraction we shall
 use canny edge detector algorithm.
 
-Canny Edge Detector Algorithm:
+### Canny Edge Detector Algorithm:
 
 1. Removing noise using a 5x5 gaussian filter with standard deviation 1.4.
 
@@ -62,8 +62,9 @@ these pixels), then you can mark these pixels as an edge pixel
 • Loop until there are no changes in the image Once the image stops changing, you've
 got your canny edges 
 
-After determining the edges, location of the iris is found using Hough transform.The
-algorithm of Hough transform is as follows:
+After determining the edges, location of the iris is found using Hough transform.
+
+### The algorithm of Hough transform is as follows:
 
 1. Initialize pupil radius and iris radius the given database.
 
