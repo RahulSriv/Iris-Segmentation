@@ -26,12 +26,12 @@ use canny edge detector algorithm.
 
 ### Canny Edge Detector Algorithm:
 
-1. Removing noise using a 5x5 gaussian filter with standard deviation 1.4.
+1. Removing noise using a 5x5 gaussian filter with standard deviation 1.4
 
 2. Use first derivative filter to calculate GX and GY. Mostly Sobel or Sommel filters are
-used.
+used
 
-3. Magnitude and direction of the gradient is calculated.
+3. Magnitude and direction of the gradient is calculated
 
 4. Non maximum suppression- in this if a pixel is not a maximum it is suppressed. The
 following 4 criteria are checked over each pixel to determine if that pixel is maximum or not:
@@ -50,7 +50,7 @@ you check the pixels to the left and right.
 
 5. Thresholding with hysteresis: in this we check if the current pixel is an edge or not, if not
 check the next pixel. If it is an edge we check the two pixels in the direction of the edge if
-either of them
+either of them:
 
 • Have the direction in the same bin as the central pixel
 
