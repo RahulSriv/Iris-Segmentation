@@ -64,7 +64,7 @@ got your canny edges
 
 After determining the edges, location of the iris is found using Hough transform.
 
-### The algorithm of Hough Transform is as follows:
+### Hough Transform Algorithm:
 
 1. Initialize pupil radius and iris radius the given database.
 
